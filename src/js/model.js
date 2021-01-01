@@ -146,6 +146,7 @@ export const uploadRecipe = async function (newRecipe) {
 };
 
 const init = function () {
+  console.log("I'm so happy to deploy my first site, thank GOD :)")
   const storage = localStorage.getItem('bookmarks');
   if (!storage) return;
   JSON.parse(storage).forEach(bookmark => {
